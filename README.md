@@ -14,13 +14,11 @@
 <p> </p>
 
 <p align="justify">
-
 Desenvolvido na Universidade de Moscou / Rússia por Sir Charles Antony Richard Hoare em 1960 e apresentado para a comunidade acadêmica em 1962 por meio de publicações, o Quick Sort é um dos algoritmos de ordenação interna (i.e., executado totalmente em memória RAM) mais rápido que se conhece. O método se baseia no mesmo princípio do Merge Sort, na divisão e conquista. Contudo, segundo literatura, sua forma de execução melhor se define como conquista e divisão, uma vez que ordenações são realizadas antes das divisões propriamente ditas. Esse algoritmo foi criado quando Sir Charles Antony Richard Hoare tentava traduzir um dicionário do inglês para o russo e para isso ele se dedicou a tentar dividir o problema em problemas menores que podiam ser resolvidos com maior agilidade. Para isso, o conceito de pivô foi apresentado.
 
 </p>
 
 <p align="justify">
-
 Um pivô nada mais é que um elemento do conjunto, selecionado muitas vezes "<i>arbitrariamente</i>", que serve como base comparativa para com os demais valores existentes. Nesse contexto, as movimentações no vetor são realizadas sempre que detectado que o valor observado é maior ou menor que o valor estabelecido pelo pivô. Assim, valors maiores são direcionados para a direita do pivô, enquanto, os menores são movimentados para esquerda do mesmo.
 </p>
 
