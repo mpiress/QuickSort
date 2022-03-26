@@ -31,7 +31,6 @@ Um pivô nada mais é que um elemento do conjunto, selecionado muitas vezes "<i>
 > 2. Reorganize o conjunto de elementos para garantir que os elementos da esquerda são menores que o pivô e os da direita maiores. Nessa etapa é conquistado a posição final do pivô e duas sub listas parcialmente reorganizadas.
 >
 > 3. Recursivamente, repita os passos 1 e 2 para cada sub lista obtida até que não haja mais elementos a serem ordenados.
-
 </p>
 
 <p align="justify">
