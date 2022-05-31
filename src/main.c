@@ -5,8 +5,10 @@ int main(){
 	Vector v;
 	
 	Initialize(&v);
+	printf("\t\t\t");
 	Imprime(&v);
-	printf("\n");
+	//printf("\n");
+
 	QuickSort(&v, 0, MAXSIZE-1, 0, 0);
 	printf("NUMBER OF SWAPS:%d\n", v.swap);
 	
